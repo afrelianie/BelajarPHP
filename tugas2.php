@@ -15,16 +15,16 @@
         </font>
     </legend>
     <!-- membuat Form -->
-    <h1 style="text-align: center;">MENGISI DATA PEGAWAI</h1>
-    <form method="POST">
+    	<h1 style="text-align: center;">MENGISI DATA PEGAWAI</h1>
+    	<form method="POST">
 		<table border="0" align="center" border="6" cellpadding="5" cellspacing="0" style="width: 37%;">
-            <thead>
-            <tr bgcolor="greenyellow">
-                <th colspan="5">Form Register Produk</th>
-            </tr>
-            </thead>
+            		<thead>
+            		<tr bgcolor="greenyellow">
+                		<th colspan="5">Form Register Produk</th>
+            		</tr>
+            		</thead>
         
-            <tr>
+            		<tr>
 				<td> <label> Nama </label> </td>
 				<td>
 					<input type="text" name="nama" placeholder="masukan nama">
@@ -70,11 +70,11 @@
 				</td>
 			</tr>
 		
-            <tfoot>
-                <th colspan="5" bgcolor="greenyellow">
-                    <button name="proses" type="submit">Simpan</button>
-                </th>
-            </tfoot>
+            		<tfoot>
+                		<th colspan="5" bgcolor="greenyellow">
+                    			<button name="proses" type="submit">Simpan</button>
+                		</th>
+            		</tfoot>
 		</table>     
 	</form>
 </fieldset>
